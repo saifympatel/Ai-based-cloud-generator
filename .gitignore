@@ -1,0 +1,29 @@
+# Node dependencies and build output
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+ENV/
+
+# Local editor and operating-system files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.swp
+
+# Generated archives and local secrets
+*.zip
+.env
+.env.*
+!.env.example
